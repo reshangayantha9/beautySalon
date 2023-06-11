@@ -1,0 +1,13 @@
+img{
+  width: 200px;
+  height: 150px;
+}
+.card-title{
+  color: black;
+}
+@media only screen and (max-width: 770px) {
+ row,col{
+   display: flex;
+   justify-content: center;
+ }
+}

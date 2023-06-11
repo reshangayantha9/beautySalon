@@ -1,0 +1,34 @@
+.container{
+  margin-top: 10%;
+  height: 100vh;
+}
+.title{
+  text-align: center;
+}
+h2{
+  text-align: center;
+  font-weight: bold;
+}
+.des{
+  text-align: center;
+}
+span{
+  font-weight: bold;
+}
+.row{
+  margin-top: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .col{
+    margin-top: 20px;
+  }
+  .author{
+    text-align: center;
+  }
+  .line{
+    border-bottom: 1px solid black;
+  }
+  .container{
+    padding-top: 10%;
+  }
+}
